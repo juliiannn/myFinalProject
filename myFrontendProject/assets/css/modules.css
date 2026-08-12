@@ -1,0 +1,31 @@
+.page-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.kpi {
+    border-left: 4px solid var(--primary);
+}
+
+.chart-box {
+    height: 320px;
+}
+
+.danger-text {
+    color: var(--danger);
+}

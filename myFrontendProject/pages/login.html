@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión | Sistema Académico</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="login-page">
+  <main class="login-card">
+    <div class="brand-mark">SA</div>
+    <h1>Bienvenido</h1>
+    <p class="muted">Ingresa al Sistema Académico</p>
+    <form id="loginForm">
+      <label>Correo electrónico
+        <input id="email" type="email" required autocomplete="username" placeholder="admin@colegio.com">
+      </label>
+      <label>Contraseña
+        <input id="password" type="password" required autocomplete="current-password" placeholder="••••••••">
+      </label>
+      <button class="btn btn-primary btn-block" type="submit">Iniciar sesión</button>
+    </form>
+    <div id="loginMessage" class="message"></div>
+    <p class="muted" style="text-align:center; margin-top: 14px;">
+      <a href="#" id="forgotPasswordLink">¿Olvidaste tu contraseña?</a>
+    </p>
+  </main>
+  <script src="../assets/js/config.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/auth.js"></script>
+  <script src="../assets/js/login.js"></script>
+</body>
+</html>
